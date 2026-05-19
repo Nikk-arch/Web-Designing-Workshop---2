@@ -1,0 +1,75 @@
+/* Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/* OUTER BOX (grey area + black border) */
+.outer-box {
+    background-color: #dcdcdc;
+    border: 2px solid black;
+
+    margin: 40px 60px;   /* 👈 SIDE SPACE CONTROL (yahi main cheez hai) */
+    padding: 60px 0;
+}
+
+/* INNER BOX (white card) */
+.container {
+    width: 65%;
+    margin: auto;
+    background-color: #f7f7f7;
+
+    padding: 40px;
+    text-align: center;
+
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Input */
+input {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+/* Buttons common */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Top buttons */
+.top-buttons {
+    margin-bottom: 15px;
+}
+
+/* Bottom buttons */
+.bottom-buttons {
+    margin-bottom: 20px;
+}
+
+/* Button style */
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+
+    background: linear-gradient(to right, #007BFF, #0056b3);
+}
+
+/* Paragraph */
+p {
+    font-size: 16px;
+}
