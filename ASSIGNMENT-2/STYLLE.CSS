@@ -1,0 +1,31 @@
+.hero {
+  background-color: #0d6efd;
+  color: white;
+  padding: 80px 0;
+}
+
+.products-section {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+
+.card {
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+.footer {
+  background: #212529;
+  color: white;
+  padding: 20px;
+}
