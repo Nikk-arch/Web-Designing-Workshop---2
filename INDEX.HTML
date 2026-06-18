@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">🛒 ShopEase</div>
+
+    <input type="text" id="search" placeholder="Search Products...">
+
+    <div class="cart-icon">
+        <i class="fas fa-shopping-cart"></i>
+        <span id="cartCount">0</span>
+    </div>
+</header>
+
+<h2 class="title">Featured Products</h2>
+
+<div class="products" id="productContainer"></div>
+
+<div class="cart-section">
+    <h2>Your Cart</h2>
+    <ul id="cartItems"></ul>
+
+    <h3>Total: ₹<span id="total">0</span></h3>
+
+    <button class="checkout">Checkout</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
